@@ -1,0 +1,91 @@
+/* *{
+    background-color: cyan;
+} */
+
+body{
+    background-color: #f1faee;
+}
+button{
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+h1,h2{
+    color: #1d3557;
+}
+
+/*  # for ids */
+#signup{
+    background-color: #1d3557;
+    color: #f1faee;
+}
+span{
+    color:#457b9d;
+}
+
+/*  . for tags  */
+.tag{
+    background-color: #e63946 ;
+    color: #f1faee;
+    font-size: 15px;
+}
+
+.post a {
+    color: #457b9d;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color:#e63946
+}
+
+/*  + adjacent selector: selects only the paragraphs that are immediately preceded by an h1*/
+h2 + button{
+    font-size: 20px;
+    background-color: magenta;
+}
+
+/*  > direct child: Select only the <li>'s that are direct children of a <div> element */
+footer > a {
+    color:#457b9d}
+
+/* input[type="text"]: Select all input elements where the type attribute is set to "text" */    
+input[type="password"] {
+    color:#e63946;
+}
+
+
+a[href*="google"]{
+    color: magenta;
+}
+
+/*  HOVER */
+button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #02c39a;
+} 
+
+.post:nth-of-type(2n) {
+    background-color: #dfe8dc;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line{
+    color: purple;
+}
+
+p::selection {
+    background-color: #fcbf49;
+}
+
