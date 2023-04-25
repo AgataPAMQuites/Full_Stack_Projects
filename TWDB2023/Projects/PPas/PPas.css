@@ -66,26 +66,4 @@ section {
     background-color: #f472b6;
   }
   
-  .item:nth-of-type(7n) {
-    background-color: #fb7185;
-  }
   
-  .item:nth-of-type(8n) {
-    background-color: #38bdf8;
-  }
-  
-  .item:nth-of-type(9n) {
-    background-color: #4ade80;
-  }
-  
-  .item:nth-of-type(10n) {
-    background-color: #facc15;
-  }
-  
-  .item:nth-of-type(11n) {
-    background-color: #a78bfa;
-  }
-  
-  .item:nth-of-type(12n) {
-    background-color: #f472b6;
-  }
