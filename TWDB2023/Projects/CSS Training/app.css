@@ -75,21 +75,24 @@ body{
     font-size: 33px;
     font-weight: 600;
     line-height: 1.3em;
-    letter-spacing: -0.1px;    
+    letter-spacing: -0.1px;  
+    flex: 1;  
 }
 
 .text{    
     margin: 6px 0px 0px 0px;
     padding: 10px;
+    flex: 1;
 }
 
 .text-paragraph{
     font-size: 16px;
     font-weight: 300;
     line-height: 2.4em;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.5px;
     color: #7F7F80;
     text-align: center;
+   
 }
 
 .panel {
@@ -101,6 +104,7 @@ body{
     text-align: center; 
     padding: 0px 20px; 
     margin-bottom: 20px; 
+
 }
 
 .panel-part{
@@ -137,7 +141,23 @@ body{
 }
 
 @media (min-width:900px){
+    .presentation {
+        flex-direction: row;
+        margin: 0px 20px;
+
+    }
+    .heading-title{
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 76px; 
+        text-align: start;   
+    }
+    .text-paragraph{
+        text-align: left;
+    }
     .panel {
         flex-direction: row;
+        margin-top: 60px;
+        margin-bottom: 69px;
     }
 }
